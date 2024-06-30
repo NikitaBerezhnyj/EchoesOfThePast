@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 536: invalid syntax. Perhaps you forgot a comma?
+    renpy.notify("Кінцівку "Новий шлях" здобуто")
+                  ^
+
+Ren'Py Version: Ren'Py 8.2.0.0+unofficial
+Sun Feb 18 21:51:39 2024
