@@ -1,28 +1,67 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 28, in script
-    scene street with flash
-  File "game/script.rpy", line 28, in <module>
-    scene street with flash
-NameError: name 'flash' is not defined
+  File "renpy/common/00start.rpy", line 211, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 388, in script
+    $ __gl_test()
+  File "renpy/common/00start.rpy", line 211, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 388, in script
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 388, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 340, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+OSError: Couldn't find file 'gui/window_icon.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 28, in script
-    scene street with flash
-  File "/usr/share/renpy/renpy/ast.py", line 1674, in execute
-    paired = renpy.python.py_eval(self.paired)
-  File "/usr/share/renpy/renpy/python.py", line 1153, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "/usr/share/renpy/renpy/python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 28, in <module>
-    scene street with flash
-NameError: name 'flash' is not defined
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/main.py", line 637, in main
+    run(restart)
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/main.py", line 145, in run
+    renpy.execution.run_context(True)
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/execution.py", line 955, in run_context
+    context.run()
+  File "renpy/common/00start.rpy", line 211, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 388, in script
+    $ __gl_test()
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "renpy/common/00start.rpy", line 211, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 388, in script
+    $ __gl_test()
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00gltest.rpy", line 388, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 340, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/display/core.py", line 2123, in interact
+    self.start()
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/display/core.py", line 983, in start
+    self.post_init()
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/display/core.py", line 1080, in post_init
+    self.set_icon()
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/display/core.py", line 1124, in set_icon
+    with renpy.loader.load(icon, directory="images") as f:
+  File "/home/nikname/Документи/renpy-8.2.3-sdk/renpy/loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'gui/window_icon.png'.
 
-Linux-6.5.13-7-MANJARO-x86_64-with-glibc2.38 x86_64
-Ren'Py 8.2.0.0+unofficial
+Linux-6.5.13-1-MANJARO-x86_64-with-glibc2.39 x86_64
+Ren'Py 8.2.3.24061702
 Відлуння минулого 
-Sun Feb 18 00:48:32 2024
+Sun Jun 30 12:30:34 2024
