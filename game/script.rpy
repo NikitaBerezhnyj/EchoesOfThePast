@@ -15,12 +15,29 @@ define phone = Character("Телефон")
 # Змінна лічильника разів підходів до їжі
 define eat_counter = 0
 # Змінні розмов із людьми
+<<<<<<< HEAD
 define talk_anna = False
 define talk_andriy = False
 define talk_sasha = False
 # Змінні кінцівок
 default persistent.bad_ending = False
 default persistent.happy_ending = False
+=======
+define is_talk_anna = False
+define is_talk_andriy = False
+define is_talk_sasha = False
+# Змінні щасливості людей
+define is_anna_happy = False
+define is_andriy_happy = False
+define is_sasha_happy = False
+# Змінна лічильника спійманих ельфами людей
+define caught_count = 1
+# Змінні кінцівок
+default persistent.bad_ending = False
+default persistent.happy_ending = False
+# Змінна статусу гри
+define persistent.game_status = 0
+>>>>>>> 1fa68446b484d0a4a7ce7e2baf210844c00b30b8
 
 # Оголошення ефекту розплющування та заплющування очей
 init python:
