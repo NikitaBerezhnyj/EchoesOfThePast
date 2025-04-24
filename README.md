@@ -1,6 +1,6 @@
 # Echoes Of The Past
 
-This project translated: [українською :ukraine:](#echoes-of-the-past-ukraine), [english :uk:](#echoes-of-the-past-uk)
+This project is available in: [Ukrainian :ukraine:](#echoes-of-the-past-ukraine) and [English :uk:](#echoes-of-the-past-uk)
 
 ## Echoes Of The Past :ukraine:
 
