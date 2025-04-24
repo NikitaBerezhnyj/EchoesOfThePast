@@ -2,7 +2,10 @@
 .vscode/*
 log.txt
 game/saves
+game/cache
+game.old/saves
+game.old/cache
 errors.txt
 traceback.txt
-game/cache
 *~
+*.rpyc

@@ -61,19 +61,19 @@ define gui.interface_text_color = '#ffffff'
 ## Шрифти та розміри шрифтів ###################################################
 
 ## Шрифт, який використовується для тексту в грі.
-define gui.text_font = "fonts/FixelText-Regular.otf"
+define gui.text_font = "DejaVuSans.ttf"
 
 ## Шрифт, який використовується для імен символів.
-define gui.name_text_font = "fonts/FixelText-Regular.otf"
+define gui.name_text_font = "DejaVuSans.ttf"
 
 ## Шрифт, який використовується для інтерфейсу гри.
-define gui.interface_text_font = "fonts/NeutralFace.otf"
+define gui.interface_text_font = "DejaVuSans.ttf"
 
 ## Розмір звичайного тексту діалогу.
-define gui.text_size = 24
+define gui.text_size = 33
 
 ## Розмір імен персонажів.
-define gui.name_text_size = 33
+define gui.name_text_size = 45
 
 ## Розмір тексту в інтерфейсі користувача гри.
 define gui.interface_text_size = 33

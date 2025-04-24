@@ -547,23 +547,19 @@ screen about():
     ## Цей оператор використання включає екран game_menu всередині цього. Потім
     ## дочірній елемент vbox включається в область перегляду всередині екрана
     ## game_menu.
-    use game_menu(_("Про гру"), scroll="viewport"):
+    use game_menu(_("About"), scroll="viewport"):
 
         style_prefix "about"
 
         vbox:
 
-            label "[config.name!t]\n"
-            # text _("Версія [config.version!t]\n")
+            label "[config.name!t]"
+            text _("Version [config.version!t]\n")
 
             ## gui.about зазвичай встановлюється в options.rpy.
             if gui.about:
                 text "[gui.about!t]\n"
-            
-            text _("Гру розроблено спеціально для Ukrainian Visual Novel Jam #4 з використанням матеріалів:")
-            text _("- {a=https://lornn.itch.io/backgrounds-homes}https://lornn.itch.io/backgrounds-homes{/a}")
-            text _("- {a=https://florassence.itch.io/winter-backgrounds}https://florassence.itch.io/winter-backgrounds{/a}")
-            text _("- {a=https://lornn.itch.io/dwarves-underground-backgrounds}https://lornn.itch.io/dwarves-underground-backgrounds{/a}")
+
             text _("Зроблено з {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
 
 
