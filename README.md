@@ -67,7 +67,9 @@ EchoesOfThePast/
 │   ├── 02_narrative.md             # Сюжет, персонажі, вибори
 │   ├── 03_visual_guide.md          # Візуальний стиль
 │   ├── 04_audio_guide.md           # Аудіо оформлення
-│   └── 05_technical_details.md     # Технічні деталі
+│   ├── 05_technical_details.md     # Технічні деталі
+│   └── 06_non_technical_guide.md   # Технічна база для не технічних учасників команди
+|
 │
 ├── LICENSE                         # Ліцензія проєкту
 ├── CONTRIBUTING.md                 # Правила внесення внесків для сторонніх розробників
@@ -90,6 +92,7 @@ EchoesOfThePast/
 - [03_visual_guide.md](./docs/03_visual_guide.md) — візуальний стиль і напрям дизайну
 - [04_audio_guide.md](./docs/04_audio_guide.md) — принципи звукового оформлення
 - [05_technical_details.md](./docs/05_technical_details.md) — технічні аспекти розробки
+- [06_non_technical_guide.md](./docs/06_non_technical_guide.md) — документація для нетехнічних учасників команди, що пояснює основи роботи з Git, Markdown та RenPy, щоб спростити взаємодію з технічними аспектами проекту.
 
 Ці файли містять усю необхідну інформацію для глибокого розуміння структури гри та участі в її розвитку.
 
@@ -174,7 +177,8 @@ EchoesOfThePast/
 │   ├── 02_narrative.md             # Story, characters, choices
 │   ├── 03_visual_guide.md          # Visual style guide
 │   ├── 04_audio_guide.md           # Audio design guide
-│   └── 05_technical_details.md     # Technical details
+│   ├── 05_technical_details.md     # Technical details
+│   └── 06_non_technical_guide.md   # Technical base for non-technical team members
 │
 ├── LICENSE                         # Project license
 ├── CONTRIBUTING.md                 # Contribution guidelines
@@ -197,6 +201,7 @@ All project documentation is organized into five key files:
 - [03_visual_guide.md](./docs/03_visual_guide.md) — visual direction and design principles
 - [04_audio_guide.md](./docs/04_audio_guide.md) — audio design principles
 - [05_technical_details.md](./docs/05_technical_details.md) — technical aspects of development
+- [06_non_technical_guide.md](./docs/06_non_technical_guide.md) — documentation for non-technical team members that explains the basics of working with Git, Markdown, and RenPy to simplify interaction with the technical aspects of the project.
 
 These files contain all the necessary information for understanding the game structure and participating in development.
 
